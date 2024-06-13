@@ -1,0 +1,12 @@
+const int ledPin = PC15; // Pin connected to the LED
+
+void setup() {
+  pinMode(ledPin, OUTPUT); // Set the LED pin as an output
+}
+
+void loop() {
+  digitalWrite(ledPin, HIGH); // Turn on the LED
+  delay(10); // Wait for 500 milliseconds
+  digitalWrite(ledPin, LOW); // Turn off the LED
+  delay(1000); // Wait for 500 milliseconds
+}
